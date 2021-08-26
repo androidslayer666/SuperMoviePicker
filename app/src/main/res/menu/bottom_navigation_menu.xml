@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/genreFragment"
+        android:title="Genres"
+        android:enabled="true"
+        android:menuCategory="secondary"
+        android:icon="@drawable/ic_baseline_list_alt_24"/>
+    <item
+        android:id="@+id/movieFragment"
+        android:title="List movie"
+        android:menuCategory="secondary"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_local_movies_24"/>
+    <item
+        android:id="@+id/likedMovieFragment"
+        android:title="Liked"
+        android:menuCategory="secondary"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_thumb_up_24"/>
+</menu>
+

@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">SuperMoviePicker</string>
+    <string name="only_movies_with_liked_genres">Only movies with liked genres</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

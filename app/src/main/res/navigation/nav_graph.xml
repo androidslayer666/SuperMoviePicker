@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/movieFragment">
+
+    <fragment
+        android:id="@+id/genreFragment"
+        android:name="com.example.supermoviepicker.ui.GenreFragment"
+        android:label="genreFragment" >
+        <action
+            android:id="@+id/action_genreFragment_to_movieFragment"
+            app:destination="@id/movieFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/movieFragment"
+        android:name="com.example.supermoviepicker.ui.MovieFragment"
+        android:label="fragment_blank">
+
+    </fragment>
+    <fragment
+        android:id="@+id/likedMovieFragment"
+        android:name="com.example.supermoviepicker.ui.LikedMovieFragment"
+        android:label="fragment_liked_movie"
+        tools:layout="@layout/fragment_liked_movie" >
+
+    </fragment>
+    <fragment
+        android:id="@+id/filterDialog"
+        android:name="com.example.supermoviepicker.ui.parts.FilterDialog"
+        android:label="FilterDialog" />
+    <fragment
+        android:id="@+id/filterSortingFragment"
+        android:name="com.example.supermoviepicker.ui.parts.FilterSortingFragment"
+        android:label="FilterSortingFragment" />
+
+</navigation>
